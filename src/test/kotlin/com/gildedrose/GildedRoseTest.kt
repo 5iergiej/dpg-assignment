@@ -11,9 +11,7 @@ internal class GildedRoseTest {
         val app = GildedRose(items)
         app.updateQuality()
         assertEquals("foo", app.items[0].name)
-
     }
-
 }
 
 
